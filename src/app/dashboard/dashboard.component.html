@@ -1,0 +1,12 @@
+<mat-card class="main-dashboard-card">
+  <div fxLayout="row">
+    <div fxFlex="10" fxFlex.gt-sm="20"></div>
+    <div fxFlex="90" fxFlex.gt-sm="80">
+      <h1 class="section-title">{{ 'Pages.Dashboard.Headline' | translate}}</h1>
+      <p>{{ "Pages.Dashboard.welcomeText" | translate }} <a routerLink="/shopping">{{ "Pages.Shopping.Title" | translate }}</a>.</p>
+    </div>
+    <div fxFlex="10" fxFlex.gt-sm="20"></div>
+  </div>
+</mat-card>
+
+<app-shopping-list-detail></app-shopping-list-detail>
